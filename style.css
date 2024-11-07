@@ -1,0 +1,28 @@
+#wrapper {
+   width: 1000px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: auto;
+}
+p {
+   font-size: 1.2rem;
+}
+img {
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+   border: 2px solid black;
+}
+img:hover {
+   box-shadow: 5px 7px 5px 5px rgb(120, 120, 120);
+}
+#spelplan {
+   width: 900px;
+   height: 450px;
+   background-color: rgb(230, 223, 223);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
